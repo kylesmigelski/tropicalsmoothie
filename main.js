@@ -1,4 +1,4 @@
-src="https://d3js.org/d3.v3.min.js
+src="https://d3js.org/d3.v3.min.js"
 var padding = {top:20, right:40, bottom:0, left:0},
     w = 500 - padding.left - padding.right,
     h = 500 - padding.top  - padding.bottom,
