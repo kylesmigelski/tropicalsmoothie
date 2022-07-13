@@ -5,9 +5,9 @@
     <title> Closing Task Roulette</title>
     <style type="text/css">
         text{
-            font-family: "Open Sans", serif;
+            font-family: "Open Sans", sans-serif ;
             font-weight: bold;
-            font-size:22px;
+            font-size:30px;
             pointer-events:none;
         }
         #chart{
@@ -26,7 +26,7 @@
 
     <div id="chart"></div>
 
-    <script src="script.js" charset="utf-8"></script>
+    <script src="scirpt.js" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
         var padding = {top:20, right:40, bottom:0, left:30},
             w = 800 - padding.left - padding.right,
@@ -150,7 +150,7 @@
         container.append("circle")
             .attr("cx", 0)
             .attr("cy", 0)
-            .attr("r", 120)
+            .attr("r", 80)
             .style({"fill":"white","cursor":"pointer"});
 
         //spin text
